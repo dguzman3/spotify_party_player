@@ -9,6 +9,10 @@ djangorestframework = "*"
 requests = "*"
 environs = {version = "==8.0.0", extras = ["django"]}
 python-dotenv = "*"
+gunicorn = "*"
+dj-database-url = "*"
+psycopg2-binary = "*"
+whitenoise = "*"
 
 [dev-packages]
 autopep8 = "*"
